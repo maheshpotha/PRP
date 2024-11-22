@@ -1,0 +1,36 @@
+
+How to Run the System
+
+1. Angular Frontend
+   a. Navigate to the Project Directory:
+      - Open your terminal or command prompt.
+      - Navigate to the root folder of the Angular project.
+   b. Install Dependencies:
+      - Run the following command:
+        yarn
+        This will install all the required dependencies for the Angular project.
+   c. Start the Development Server:
+      - After the dependencies are installed, start the Angular application by running:
+        yarn start
+      - The development server will start, and you can access the application in your browser at:
+        http://localhost:4200
+
+2. ASP.NET Core API
+   a. Adjust Server Configuration:
+      - Open the appsettings.json file in the root of the backend project.
+      - Configure the database connection string and other required settings under the "ConnectionStrings" section.
+   b. Open the Project in Visual Studio:
+      - Launch Visual Studio.
+      - Open the ASP.NET Core API project by selecting the .sln file or by navigating to the project folder.
+   c. Run the API:
+      - Ensure the correct project is set as the startup project in Visual Studio.
+      - Click on the Run button to start the API.
+      - The API will run on a default port, such as:
+        https://localhost:5202 
+
+
+3. Accessing the Application
+   - Start both the API and the Angular frontend systems as described.
+   - Use the Angular application in your browser, and it will communicate with the API for data.
+
+If you encounter any issues, feel free to reach out for further assistance. 
